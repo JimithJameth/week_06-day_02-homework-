@@ -35,7 +35,7 @@ public class PhotographerTest {
   public void cameraCollection(){
     photographer.addCamera(analogCamera);
     photographer.addCamera(digitalCamera);
-    String cameraDetails = "E.G 1. Nikon 34T" + "Sony ILCE5100L";
+    String cameraDetails = "Nikon 34T" + "Sony ILCE5100L";
     assertEquals(cameraDetails, photographer.cameraCollection());
 
   }
