@@ -10,7 +10,7 @@ public class PhotographerTest {
   @Before
   public void setup(){
     photographer = new Photographer("Jamie");
-    analogCamera = new AnalogCamera("E.G 1. Nikon 34T"); 
+    analogCamera = new AnalogCamera("Nikon 34T"); 
     digitalCamera = new DigitalCamera("Sony ILCE5100L"); 
   }
 
